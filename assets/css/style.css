@@ -1,3 +1,88 @@
-input,label{
+body{
+	width:960px;
+	height:500px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:1px; 
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;;
+}
+
+div,nav,li,section,aside,table{
+	display: inline-block;
+	
+}
+
+
+header,h1,h3{
+	font-family: 'Roboto Slab', serif; 
+}
+header>div{
+	font-size:30px;
+	margin-left:20px;
+	background-color: rgb(234,221,106);
+	padding: 20px;
+}
+a{
+	text-decoration: none;
+}
+
+
+nav{
+	position:relative;
+	left:300px;
+
+}
+
+li{
+	padding-right: 20px;
+}
+
+main{
+	
+	vertical-align: top;
+	background-image:url('../images/wood_pattern.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+	background-size: cover;
+}
+section{
+	width:630px;
+	
+	background-color: rgb(234,231,208) ;
+	border-color: 1px solid black;
+	padding:30px;
+	margin:20px;
+
+}
+article>div{
+	vertical-align: top;
 	display:inline-block;
+	float:left;
+	margin-right:10px;
+	margin-top: 10px;
+}
+aside{
+	vertical-align: top;
+	margin-top:20px;
+	width:200px;
+	height:150px;
+	background-color: rgb(234,231,208) ;
+	border-color:1px solid blue;
+	margin-right:10px;
+	padding:5px;
+	padding-top:20px;
+	text-align:center;
+
+}
+aside>div{
+	padding:5px;
+	margin-top:20px;
+}
+footer{
+	padding: 30px;
+	background-color: rgb(157,99,0);
+	border-color:5px solid orange;
+	font-size: 12px;
+	text-align:center;
 }

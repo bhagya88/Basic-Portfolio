@@ -2,41 +2,48 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<script src="https://use.fontawesome.com/d1058ef1e0.js"></script>
+
 </head>
 <body>
-<header>
-		<div>Bhagya</div>
+	<header>
+		<div><h1>Bhagya L</h1></div>
 		<nav>
 			<ul>
-				<li>About</li>
-				<li>Portfolio</li>
-				<li>Contact</li>
+				<li><a href="index.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
+		<section>
 		<h1>Contact</h1>
+		<hr>
 		<form>
-			<label>Name</label><input type="text" name="">
-			<label>Email</label><input type="email" name="">
-			<label>Message</label><input type="text" name="">
-			<button type="submit">Submit</button>
+			<label>Name</label><br><input type="text" name="name" style="width:400px; height:30px"><br><br>
+			<label>Email</label><br><input type="email" name="email" style="width:400px; height:30px"><br><br>
+			<label>Message</label><br><textarea name="message" style="width:400px;height:150px;"></textarea><br><br>
+			<button type="submit"  style="width:80px; height:35px">Submit</button>
 		</form>
+		</section>
+
+		<aside>
+			<h3>Connect with me</h3>
+			<hr>
+			<div><a href="https://github.com/bhagya88"><img src="assets/images/1470160647_Github.png" width=50px height=50px></a></div>
+
+			<div><a href="https://www.linkedin.com/"><img src="assets/images/1470160187_linkedin_square_color.png" width=50px height=50px></a></div>
+
+			<div><a href="http://www.stackoverflow.com"><img src="assets/images/1470160450_stackoverflow.png" width=50px height=50px></a></div>
+			
+	</aside>
 	</main>
 
-<aside>
-		<h2>Connect with me</h2>
-		<table>
-			<tr>
-				<td><img src="assets/images/1470160647_Github.png"></td>
-				<td><img src="assets/images/1470160187_linkedin_square_color.png"></td>
-				<td><img src="assets/images/1470160450_stackoverflow.png"></td>
-			</tr>
-		</table>
-	</aside>
-<footer><i class="fa fa-copyright" aria-hidden="true"></i>Copyright 2016 Bhagya</footer>
+	<footer><i class="fa fa-copyright" aria-hidden="true"></i>Copyright 2016 Bhagya</footer>
 </body>
 </html>
