@@ -20,7 +20,7 @@ header,h1,h3{
 header>div{
 	font-size:30px;
 	margin-left:20px;
-	background-color: rgb(234,221,106);
+	background-color: rgba(64, 102, 170, 0.92);
 	padding: 20px;
 }
 a{
@@ -55,6 +55,44 @@ section{
 	margin:20px;
 
 }
+
+/*  styling specific to contact.html  */
+section button{
+	background-color: rgba(64, 102, 170, 0.92);
+}
+
+/* stying specific to portfolio.html  */
+section>div{
+width:300px;
+display:inline-block;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+section>div>div{
+background-color: rgba(64, 102, 170, 0.92);
+margin-left:-170px;
+
+width:160px;
+padding:5px;
+z-index: 100;
+}
+
+section a:hover{
+
+}
+
+section>div img{
+	
+ 
+
+}
+
+section>div img:hover{
+	opacity: .90;
+}
+
+/*  Styling specific to index.html */
 article>div{
 	vertical-align: top;
 	display:inline-block;
@@ -62,6 +100,8 @@ article>div{
 	margin-right:10px;
 	margin-top: 10px;
 }
+
+
 aside{
 	vertical-align: top;
 	margin-top:20px;
@@ -79,10 +119,14 @@ aside>div{
 	padding:5px;
 	margin-top:20px;
 }
+
+aside a:hover{
+	opacity:0.8;
+}
 footer{
 	padding: 30px;
 	background-color: rgb(157,99,0);
-	border-color:5px solid orange;
+	border-top:5px solid rgba(64, 102, 170, 0.92);
 	font-size: 12px;
 	text-align:center;
 }
