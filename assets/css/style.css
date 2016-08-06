@@ -51,6 +51,7 @@ main{
     -moz-background-size: cover;
 	background-size: cover;
 }
+
 section{
 	width:630px;
 	
@@ -66,6 +67,8 @@ section button{
 	background-color: rgba(64, 102, 170, 0.92);
 }
 
+
+
 /* stying specific to portfolio.html  */
 section>div{
 width:300px;
@@ -80,16 +83,11 @@ margin-left:-170px;
 
 width:160px;
 padding:5px;
-z-index: 100;
-}
-
-
-
-section>div img{
-	
- 
 
 }
+
+
+
 
 
 
