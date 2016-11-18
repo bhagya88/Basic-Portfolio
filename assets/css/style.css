@@ -1,11 +1,12 @@
 body{
 	width:960px;
-	height:500px;
+	height:100% !important;
 	margin-left:auto;
 	margin-right:auto;
 	padding:1px; 
 	font-size: 20px;
-	font-family: 'Roboto', sans-serif;;
+	font-family: 'Roboto', sans-serif;
+	
 }
 
 div,nav,li,section,aside,table{
@@ -17,12 +18,16 @@ header,h1,h3{
 	font-family: 'Roboto Slab', serif; 
 }
 
+header{
+	height:10%;
+}
 
 header>div{
 	font-size:30px;
 	margin-left:20px;
 	background-color: rgba(64, 102, 170, 0.92);
 	padding: 20px;
+	
 }
 
 
@@ -53,6 +58,8 @@ main{
     -webkit-background-size: cover;
     -moz-background-size: cover;
 	background-size: cover;
+	height:80% !important;
+
 }
 
 section{
@@ -131,4 +138,5 @@ footer{
 	border-top:5px solid rgba(64, 102, 170, 0.92);
 	font-size: 12px;
 	text-align:center;
+	height:10% !important;
 }
