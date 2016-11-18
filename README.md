@@ -1,4 +1,4 @@
-# Basic-Portfolio
+git@github.com:bhagya88/Basic-Portfolio.git# Basic-Portfolio
 
 ### Overview
 This a simple professional porfolio.
@@ -6,8 +6,7 @@ This a simple professional porfolio.
 ### Demo
 
 
-### Technolgies used
-* HTML, CSS
+git@github.com:bhagya88/Basic-Portfolio.git* HTML, CSS
 * Chrome extensions Eye dropper, Page ruler
 * Google font families
 * Icon finder, Subtle patterns
